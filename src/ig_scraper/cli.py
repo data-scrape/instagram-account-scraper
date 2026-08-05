@@ -68,11 +68,13 @@ def build_parser() -> argparse.ArgumentParser:
 
     # Profile command
     p_profile = subparsers.add_parser("profile", help="Scrape profile information")
+    _add_common_options(p_profile)
     p_profile.add_argument("username", help="Instagram username")
     p_profile.add_argument("--fields", help="Comma-separated fields to show")
 
     # Posts command
     p_posts = subparsers.add_parser("posts", help="Scrape recent posts")
+    _add_common_options(p_posts)
     p_posts.add_argument("username", help="Instagram username")
     p_posts.add_argument("--limit", type=int, default=12, help="Max posts (default: 12)")
     p_posts.add_argument("--reels", action="store_true", help="Only get reels")
@@ -80,44 +82,64 @@ def build_parser() -> argparse.ArgumentParser:
 
     # Reels command
     p_reels = subparsers.add_parser("reels", help="Scrape recent reels")
+    _add_common_options(p_reels)
     p_reels.add_argument("username", help="Instagram username")
     p_reels.add_argument("--limit", type=int, default=12, help="Max reels (default: 12)")
 
     # Stories command
     p_stories = subparsers.add_parser("stories", help="Scrape active stories")
+    _add_common_options(p_stories)
     p_stories.add_argument("usernames", nargs="+", help="Instagram usernames")
 
     # Hashtag command
     p_hashtag = subparsers.add_parser("hashtag", help="Scrape posts by hashtag")
+    _add_common_options(p_hashtag)
     p_hashtag.add_argument("hashtag", help="Hashtag (without #)")
     p_hashtag.add_argument("--limit", type=int, default=20, help="Max posts (default: 20)")
 
     # Followers command
     p_followers = subparsers.add_parser("followers", help="Get followers list")
+    _add_common_options(p_followers)
     p_followers.add_argument("username", help="Instagram username")
     p_followers.add_argument("--limit", type=int, default=100, help="Max followers")
 
     # Following command
     p_following = subparsers.add_parser("following", help="Get following list")
+    _add_common_options(p_following)
     p_following.add_argument("username", help="Instagram username")
     p_following.add_argument("--limit", type=int, default=100, help="Max following")
 
     # Emails command
     p_emails = subparsers.add_parser("emails", help="Extract emails from profile")
+    _add_common_options(p_emails)
     p_emails.add_argument("username", help="Instagram username")
     p_emails.add_argument("--posts", type=int, default=50, help="Posts to scan")
 
     # Batch command
     p_batch = subparsers.add_parser("batch", help="Batch scrape multiple accounts")
+    _add_common_options(p_batch)
     p_batch.add_argument("file", help="Text file with usernames (one per line)")
     p_batch.add_argument("--limit", type=int, default=5, help="Posts per account")
 
     # All command
     p_all = subparsers.add_parser("all", help="Scrape all available data for account")
+    _add_common_options(p_all)
     p_all.add_argument("username", help="Instagram username")
     p_all.add_argument("--posts", type=int, default=12, help="Max posts")
 
-    # Global options
+
+
+def _add_common_options(parser):
+    """Add output/format/quiet options to a subparser."""
+    parser.add_argument("--output", "-o", help="Output file path")
+    parser.add_argument(
+        "--format", choices=["json", "csv", "excel"], default="json",
+        help="Output format (default: json)",
+    )
+    parser.add_argument("--quiet", "-q", action="store_true", help="Suppress progress")
+    return parser
+
+    # Global options (kept for backward compatibility when used before command)
     parser.add_argument(
         "--login", nargs=2, metavar=("USERNAME", "PASSWORD"),
         help="Instagram login credentials",
