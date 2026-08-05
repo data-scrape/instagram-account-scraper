@@ -56,8 +56,8 @@ class TestProfile:
         row = sample_profile.to_csv_row()
         assert row[0] == "testuser"
         assert row[5] == 10000  # followers
-        assert row[9] is False  # is_private
-        assert row[10] is True  # is_verified
+        assert row[8] is False  # is_private
+        assert row[9] is True  # is_verified
 
     def test_default_values(self):
         p = Profile(username="newuser")
