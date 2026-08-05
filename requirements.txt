@@ -1,0 +1,6 @@
+# Core dependencies
+instaloader>=4.14
+
+# Optional dependencies (install as needed)
+# openpyxl>=3.1.0    # Excel export
+# lxml>=4.9.0        # Faster HTML parsing

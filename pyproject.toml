@@ -1,0 +1,87 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "instagram-account-scraper"
+version = "1.0.0"
+description = "A powerful Python tool to scrape Instagram profiles, posts, reels, stories, hashtags, followers, and emails. Export to JSON, CSV, or Excel."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Instagram Scraper Contributors"},
+]
+keywords = [
+    "instagram",
+    "scraper",
+    "instagram-scraper",
+    "instagram-scraper-python",
+    "instagram-api",
+    "instagram-crawler",
+    "instagram-data-extraction",
+    "instagram-profile-scraper",
+    "instagram-post-scraper",
+    "instagram-reels",
+    "instagram-stories",
+    "instagram-hashtag",
+    "instagram-followers",
+    "social-media-scraper",
+    "web-scraping",
+    "data-mining",
+    "lead-generation",
+    "social-media-analysis",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "instaloader>=4.14",
+]
+
+[project.optional-dependencies]
+excel = ["openpyxl>=3.1.0"]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "openpyxl>=3.1.0",
+]
+all = [
+    "instaloader>=4.14",
+    "openpyxl>=3.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/xiaozhucchongya-byte/instagram-account-scraper"
+Repository = "https://github.com/xiaozhucchongya-byte/instagram-account-scraper"
+Documentation = "https://github.com/xiaozhucchongya-byte/instagram-account-scraper#readme"
+"Bug Tracker" = "https://github.com/xiaozhucchongya-byte/instagram-account-scraper/issues"
+Changelog = "https://github.com/xiaozhucchongya-byte/instagram-account-scraper/blob/main/CHANGELOG.md"
+
+[project.scripts]
+ig-scraper = "ig_scraper.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+addopts = "-v --tb=short"
+
+[tool.coverage.run]
+source = ["src/ig_scraper"]

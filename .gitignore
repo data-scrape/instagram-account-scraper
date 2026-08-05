@@ -1,0 +1,50 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+eggs/
+sdist/
+wheels/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Session files
+.ig_scraper_session
+*.session
+
+# Output files (keep examples, ignore user output)
+output/
+exports/
+*.xlsx.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
