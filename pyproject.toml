@@ -1,6 +1,6 @@
 [build-system]
 requires = ["setuptools>=68.0", "wheel"]
-build-backend = "setuptools.backends._legacy:_Backend"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "instagram-account-scraper"
@@ -66,11 +66,11 @@ all = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/xiaozhucchongya-byte/instagram-account-scraper"
-Repository = "https://github.com/xiaozhucchongya-byte/instagram-account-scraper"
-Documentation = "https://github.com/xiaozhucchongya-byte/instagram-account-scraper#readme"
-"Bug Tracker" = "https://github.com/xiaozhucchongya-byte/instagram-account-scraper/issues"
-Changelog = "https://github.com/xiaozhucchongya-byte/instagram-account-scraper/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/data-scrape/instagram-account-scraper"
+Repository = "https://github.com/data-scrape/instagram-account-scraper"
+Documentation = "https://github.com/data-scrape/instagram-account-scraper#readme"
+"Bug Tracker" = "https://github.com/data-scrape/instagram-account-scraper/issues"
+Changelog = "https://github.com/data-scrape/instagram-account-scraper/blob/main/CHANGELOG.md"
 
 [project.scripts]
 ig-scraper = "ig_scraper.cli:main"
