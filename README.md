@@ -858,6 +858,7 @@ Explore more data extraction tools:
 
 ### Competitor Alternatives
 
+- [oxylabs-alternative](https://github.com/data-scrape/oxylabs-alternative) — Best Oxylabs Alternative - Residential proxy and web scraping API alternative
 - [scraperapi-alternative](https://github.com/data-scrape/scraperapi-alternative) — Best ScraperAPI Alternative - Web scraping API with proxy rotation
 - [scrapingbee-alternative](https://github.com/data-scrape/scrapingbee-alternative) — Best ScrapingBee Alternative - Web scraping API with JS rendering support
 - [serpapi-alternative](https://github.com/data-scrape/serpapi-alternative) — Best SerpAPI Alternative - Google SERP API with better rate limits and pricing
@@ -876,9 +877,13 @@ Explore more data extraction tools:
 - [best-tiktok-scraper](https://github.com/data-scrape/best-tiktok-scraper) — Best TikTok Scraper - Extract videos, hashtags, sounds, and creator data via API
 - [best-web-scraping-api](https://github.com/data-scrape/best-web-scraping-api) — Best Web Scraping API Comparison - CoreClaw vs competitors for production data extraction
 - [best-youtube-scraper](https://github.com/data-scrape/best-youtube-scraper) — Best YouTube Scraper - Extract video data, transcripts, and channel stats via API
+- [business-data-api](https://github.com/data-scrape/business-data-api) — Business Data API - Company data, contact info, and firmographics via REST API
+- [coreclaw-review](https://github.com/data-scrape/coreclaw-review) — CoreClaw Review - Web Data API platform features, pricing, and comparison overview
 - [data-extraction-api](https://github.com/data-scrape/data-extraction-api) — Data Extraction API - Structured data extraction for SaaS, AI agents, and automation
 - [google-maps-data-api](https://github.com/data-scrape/google-maps-data-api) — Google Maps Data API - Structured local business data for AI agents and automation
 - [google-maps-scraper-api](https://github.com/data-scrape/google-maps-scraper-api) — Google Maps Scraper API - Production-ready REST API for local business data extraction
+- [lead-generation-api](https://github.com/data-scrape/lead-generation-api) — Lead Generation API - Extract B2B contact data, company info, and sales leads via API
+- [linkedin-data-api](https://github.com/data-scrape/linkedin-data-api) — LinkedIn Data API - B2B contact and company data for sales automation
 - [web-data-api](https://github.com/data-scrape/web-data-api) — Web Data API - Turn public web pages into structured data via production-ready REST APIs
 
 ### Facebook Scrapers
@@ -946,7 +951,6 @@ Explore more data extraction tools:
 - [linkedin-profile-data-scraper](https://github.com/data-scrape/linkedin-profile-data-scraper) — LinkedIn profile data scraper - extract profiles, experience, skills, education
 - [linkedin-scraper-api](https://github.com/data-scrape/linkedin-scraper-api) — LinkedIn scraper API - REST API for LinkedIn data extraction
 - [outscraper-google-maps-scraper](https://github.com/data-scrape/outscraper-google-maps-scraper) — Compare Outscraper Google Maps Scraper with modern alternatives. Features, pricing, APIs, reviews, and production-ready Google Maps scraping solutions.
-- [oxylabs-alternative](https://github.com/data-scrape/oxylabs-alternative) — Free open-source Oxylabs alternative - residential proxy scraper
 - [pinterest-scraper](https://github.com/data-scrape/pinterest-scraper) — Scrape Pinterest pins, boards, images without API
 - [scrap-gold-ebay](https://github.com/data-scrape/scrap-gold-ebay) — Scrap gold eBay - extract gold and precious metal listings from eBay
 - [scrape-google-maps](https://github.com/data-scrape/scrape-google-maps) — Learn how to scrape Google Maps business listings, reviews, emails, phone numbers, and place IDs with production-ready APIs. No proxies. No browser automation.
