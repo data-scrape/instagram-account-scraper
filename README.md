@@ -882,6 +882,7 @@ Explore more data extraction tools:
 - [data-extraction-api](https://github.com/data-scrape/data-extraction-api) — Data Extraction API - Structured data extraction for SaaS, AI agents, and automation
 - [google-maps-data-api](https://github.com/data-scrape/google-maps-data-api) — Google Maps Data API - Structured local business data for AI agents and automation
 - [google-maps-scraper-api](https://github.com/data-scrape/google-maps-scraper-api) — Google Maps Scraper API - Production-ready REST API for local business data extraction
+- [instagram-data-api](https://github.com/data-scrape/instagram-data-api) — Instagram Data API - Structured Instagram data for influencer marketing and analytics
 - [lead-generation-api](https://github.com/data-scrape/lead-generation-api) — Lead Generation API - Extract B2B contact data, company info, and sales leads via API
 - [linkedin-data-api](https://github.com/data-scrape/linkedin-data-api) — LinkedIn Data API - B2B contact and company data for sales automation
 - [web-data-api](https://github.com/data-scrape/web-data-api) — Web Data API - Turn public web pages into structured data via production-ready REST APIs
