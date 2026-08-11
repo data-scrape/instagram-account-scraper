@@ -858,7 +858,10 @@ Explore more data extraction tools:
 
 ### Competitor Alternatives
 
+- [brightdata-alternative](https://github.com/data-scrape/brightdata-alternative) — Best Bright Data Alternative - Web data platform for AI agents and automation
+- [outscraper-alternative](https://github.com/data-scrape/outscraper-alternative) — Best Outscraper Alternative - Google Maps data extraction API with better pricing
 - [oxylabs-alternative](https://github.com/data-scrape/oxylabs-alternative) — Best Oxylabs Alternative - Residential proxy and web scraping API alternative
+- [phantombuster-alternative](https://github.com/data-scrape/phantombuster-alternative) — Best PhantomBuster Alternative - LinkedIn & social media automation API
 - [scraperapi-alternative](https://github.com/data-scrape/scraperapi-alternative) — Best ScraperAPI Alternative - Web scraping API with proxy rotation
 - [scrapingbee-alternative](https://github.com/data-scrape/scrapingbee-alternative) — Best ScrapingBee Alternative - Web scraping API with JS rendering support
 - [serpapi-alternative](https://github.com/data-scrape/serpapi-alternative) — Best SerpAPI Alternative - Google SERP API with better rate limits and pricing
@@ -870,6 +873,7 @@ Explore more data extraction tools:
 
 ### CoreClaw Products
 
+- [amazon-product-api](https://github.com/data-scrape/amazon-product-api) — Amazon Product API - Real-time product, pricing, and review data via REST API
 - [best-amazon-scraper](https://github.com/data-scrape/best-amazon-scraper) — Best Amazon Scraper - Extract product data, prices, reviews, and BSR via API
 - [best-google-maps-scraper](https://github.com/data-scrape/best-google-maps-scraper) — Best Google Maps Scraper - Extract business data, reviews, ratings & contact info via API
 - [best-instagram-scraper](https://github.com/data-scrape/best-instagram-scraper) — Best Instagram Scraper - Extract posts, profiles, stories, and hashtag data via API
@@ -882,6 +886,7 @@ Explore more data extraction tools:
 - [data-extraction-api](https://github.com/data-scrape/data-extraction-api) — Data Extraction API - Structured data extraction for SaaS, AI agents, and automation
 - [google-maps-data-api](https://github.com/data-scrape/google-maps-data-api) — Google Maps Data API - Structured local business data for AI agents and automation
 - [google-maps-scraper-api](https://github.com/data-scrape/google-maps-scraper-api) — Google Maps Scraper API - Production-ready REST API for local business data extraction
+- [google-search-api](https://github.com/data-scrape/google-search-api) — Google Search API - SERP data extraction for SEO and market intelligence
 - [instagram-data-api](https://github.com/data-scrape/instagram-data-api) — Instagram Data API - Structured Instagram data for influencer marketing and analytics
 - [lead-generation-api](https://github.com/data-scrape/lead-generation-api) — Lead Generation API - Extract B2B contact data, company info, and sales leads via API
 - [linkedin-data-api](https://github.com/data-scrape/linkedin-data-api) — LinkedIn Data API - B2B contact and company data for sales automation
